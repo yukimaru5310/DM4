@@ -3,6 +3,7 @@ import java.util.concurrent.ThreadLocalRandom
 fun main(args: Array<String>) {
      var heads = 0
      var tails = 0
+     //名前を聞くパート
      println("who are you?")
      val name = readLine()
      println("hello ${ name }!")
